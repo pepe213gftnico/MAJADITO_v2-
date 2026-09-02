@@ -1,0 +1,11 @@
+
+[weather]
+	#Range: 0.0 ~ 1.0
+	thunder_range_multiplier = 0.8
+
+[tacz_gun_modifiers]
+	modifiers = ["pistol=1.0,3.8", "sniper=1.0,8.0", "rifle=1.0,6.5", "shotgun=1.0,4.8", "smg=1.0,3.0", "rpg=1.0,10.0", "mg=1.0,4.0"]
+
+[tacz_silenced_guns]
+	ids = ["daffas_arsenal:hk45_sup", "daffas_arsenal:apacoba9_sup"]
+

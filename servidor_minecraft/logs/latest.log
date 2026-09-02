@@ -1,0 +1,352 @@
+[02Sep2026 02:29:39.255] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Sep2026 02:29:39.259] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[02Sep2026 02:29:45.092] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Sep2026 02:29:45.165] [main/INFO] [mixin-booster/]: Mixin Booster org.sinytra.mixinbooster.MixinTransformationService is definitely up to no good...
+[02Sep2026 02:29:45.203] [main/INFO] [mixin-booster/]: Crimes against java were committed by org.sinytra.mixinbooster.MixinTransformationService
+[02Sep2026 02:29:45.221] [main/INFO] [mixin-booster/]: Original mixin transformation service successfully crobbed by mixin-booster!
+[02Sep2026 02:29:45.357] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MAJADITO_v2-/servidor_minecraft/mods/mixin-booster-0.1.3+1.20.1.jar%23130%23132!/ Service=ModLauncher Env=SERVER
+[02Sep2026 02:29:46.313] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MAJADITO_v2-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2026 02:29:46.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MAJADITO_v2-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2026 02:29:46.316] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MAJADITO_v2-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2026 02:29:46.317] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MAJADITO_v2-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[02Sep2026 02:29:47.984] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 35 dependencies adding them to mods collection
+[02Sep2026 02:29:52.525] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Sep2026 02:29:52.985] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Sep2026 02:29:53.781] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.2+mc1.20.1: 98 options available, 0 override(s) found
+[02Sep2026 02:29:53.784] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[02Sep2026 02:29:53.801] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[02Sep2026 02:29:54.116] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 1 override(s) found
+[02Sep2026 02:29:54.236] [main/INFO] [STDOUT/]: [org.valkyrienskies.mod.forge.mixin.ValkyrienForgeMixinConfigPlugin:onLoad:32]: six-seven:
+[02Sep2026 02:29:54.240] [main/INFO] [STDOUT/]: [org.valkyrienskies.mod.forge.mixin.ValkyrienForgeMixinConfigPlugin:onLoad:33]: true
+[02Sep2026 02:29:54.247] [main/WARN] [mixin/]: Reference map 'mixins.trackwork.refmap.json' for trackwork.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Sep2026 02:29:56.945] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[02Sep2026 02:29:56.946] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor from mod (unknown)
+[02Sep2026 02:29:57.005] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.PoiManagerMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.008] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.PoiSectionMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.009] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.PoiTypesMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.013] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.SectionStorageMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.014] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.fast_portals.PoiManagerMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.016] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.fast_portals.PortalForcerMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.016] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.tasks.LocateHidingPlaceMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:57.017] [main/WARN] [Canary/]: Force-disabling mixin 'ai.poi.tasks.RaiderMoveThroughVillageGoalMixin' as rule 'mixin.ai.poi' (added by user configuration) disables it and children
+[02Sep2026 02:29:58.771] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/client/render/CustomLecternRenderer (java.lang.ClassNotFoundException: dan200.computercraft.client.render.CustomLecternRenderer)
+[02Sep2026 02:29:58.777] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/peripheral/speaker/SpeakerPosition (java.lang.ClassNotFoundException: dan200.computercraft.shared.peripheral.speaker.SpeakerPosition)
+[02Sep2026 02:29:58.787] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/client/sound/SpeakerSound (java.lang.ClassNotFoundException: dan200.computercraft.client.sound.SpeakerSound)
+[02Sep2026 02:29:58.792] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/turtle/core/TurtleBrain (java.lang.ClassNotFoundException: dan200.computercraft.shared.turtle.core.TurtleBrain)
+[02Sep2026 02:29:58.801] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/turtle/core/TurtleMoveCommand (java.lang.ClassNotFoundException: dan200.computercraft.shared.turtle.core.TurtleMoveCommand)
+[02Sep2026 02:29:58.808] [main/WARN] [mixin/]: Error loading class: dan200/computercraft/shared/peripheral/modem/wireless/WirelessNetwork (java.lang.ClassNotFoundException: dan200.computercraft.shared.peripheral.modem.wireless.WirelessNetwork)
+[02Sep2026 02:29:59.078] [main/WARN] [mixin/]: Error loading class: me/duquee/createutilities/blocks/voidtypes/VoidLinkBehaviour (java.lang.ClassNotFoundException: me.duquee.createutilities.blocks.voidtypes.VoidLinkBehaviour)
+[02Sep2026 02:29:59.078] [main/WARN] [mixin/]: @Mixin target me.duquee.createutilities.blocks.voidtypes.VoidLinkBehaviour was not found valkyrienskies-common.mixins.json:mod_compat.create_utilities.MixinVoidLinkBehaviour from mod (unknown)
+[02Sep2026 02:29:59.084] [main/WARN] [mixin/]: Error loading class: fuzs/echochest/world/level/block/entity/EchoChestBlockEntity (java.lang.ClassNotFoundException: fuzs.echochest.world.level.block.entity.EchoChestBlockEntity)
+[02Sep2026 02:29:59.087] [main/WARN] [mixin/]: Error loading class: fuzs/echochest/world/level/block/entity/EchoChestListener (java.lang.ClassNotFoundException: fuzs.echochest.world.level.block.entity.EchoChestListener)
+[02Sep2026 02:29:59.102] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl)
+[02Sep2026 02:29:59.106] [main/WARN] [mixin/]: Error loading class: at/petrak/hexcasting/client/render/HexAdditionalRenderers (java.lang.ClassNotFoundException: at.petrak.hexcasting.client.render.HexAdditionalRenderers)
+[02Sep2026 02:29:59.109] [main/WARN] [mixin/]: Error loading class: at/petrak/hexcasting/common/casting/actions/raycast/OpEntityRaycast (java.lang.ClassNotFoundException: at.petrak.hexcasting.common.casting.actions.raycast.OpEntityRaycast)
+[02Sep2026 02:29:59.114] [main/WARN] [mixin/]: Error loading class: at/petrak/hexcasting/common/casting/actions/spells/great/OpTeleport (java.lang.ClassNotFoundException: at.petrak.hexcasting.common.casting.actions.spells.great.OpTeleport)
+[02Sep2026 02:29:59.115] [main/WARN] [mixin/]: @Mixin target at.petrak.hexcasting.common.casting.actions.spells.great.OpTeleport was not found valkyrienskies-common.mixins.json:mod_compat.hexcasting.MixinOpTeleport from mod (unknown)
+[02Sep2026 02:29:59.122] [main/WARN] [mixin/]: Error loading class: at/petrak/hexcasting/common/casting/actions/spells/great/OpTeleport$Spell (java.lang.ClassNotFoundException: at.petrak.hexcasting.common.casting.actions.spells.great.OpTeleport$Spell)
+[02Sep2026 02:29:59.122] [main/WARN] [mixin/]: @Mixin target at.petrak.hexcasting.common.casting.actions.spells.great.OpTeleport$Spell was not found valkyrienskies-common.mixins.json:mod_compat.hexcasting.MixinOpTeleport$Spell from mod (unknown)
+[02Sep2026 02:29:59.126] [main/WARN] [mixin/]: Error loading class: net/beholderface/ephemera/casting/patterns/link/OpNetworkTeleport (java.lang.ClassNotFoundException: net.beholderface.ephemera.casting.patterns.link.OpNetworkTeleport)
+[02Sep2026 02:29:59.129] [main/WARN] [mixin/]: Error loading class: ram/talia/hexal/common/casting/actions/spells/link/OpLink (java.lang.ClassNotFoundException: ram.talia.hexal.common.casting.actions.spells.link.OpLink)
+[02Sep2026 02:29:59.136] [main/WARN] [mixin/]: Error loading class: ram/talia/hexal/common/casting/actions/spells/link/OpLinkOthers (java.lang.ClassNotFoundException: ram.talia.hexal.common.casting.actions.spells.link.OpLinkOthers)
+[02Sep2026 02:29:59.139] [main/WARN] [mixin/]: Error loading class: ram/talia/hexal/client/RenderHelperKt (java.lang.ClassNotFoundException: ram.talia.hexal.client.RenderHelperKt)
+[02Sep2026 02:29:59.145] [main/WARN] [mixin/]: Error loading class: ram/talia/hexal/api/linkable/ServerLinkableHolder (java.lang.ClassNotFoundException: ram.talia.hexal.api.linkable.ServerLinkableHolder)
+[02Sep2026 02:29:59.147] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/moonlight/core/misc/FakeServerLevel (java.lang.ClassNotFoundException: net.mehvahdjukaar.moonlight.core.misc.FakeServerLevel)
+[02Sep2026 02:29:59.148] [main/WARN] [mixin/]: @Mixin target net.mehvahdjukaar.moonlight.core.misc.FakeServerLevel was not found valkyrienskies-common.mixins.json:mod_compat.moonlight.MixinFakeServerLevel from mod (unknown)
+[02Sep2026 02:29:59.150] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[02Sep2026 02:29:59.153] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[02Sep2026 02:29:59.181] [main/WARN] [mixin/]: Error loading class: com/lilypuree/connectiblechains/entity/ChainCollisionEntity (java.lang.ClassNotFoundException: com.lilypuree.connectiblechains.entity.ChainCollisionEntity)
+[02Sep2026 02:29:59.182] [main/WARN] [mixin/]: @Mixin target com.lilypuree.connectiblechains.entity.ChainCollisionEntity was not found valkyrienskies-forge.mixins.json:compat.connectiblechains.MixinChainCollisionEntity from mod (unknown)
+[02Sep2026 02:29:59.185] [main/WARN] [mixin/]: Error loading class: com/lilypuree/connectiblechains/entity/ChainKnotEntity (java.lang.ClassNotFoundException: com.lilypuree.connectiblechains.entity.ChainKnotEntity)
+[02Sep2026 02:29:59.186] [main/WARN] [mixin/]: @Mixin target com.lilypuree.connectiblechains.entity.ChainKnotEntity was not found valkyrienskies-forge.mixins.json:compat.connectiblechains.MixinChainKnotEntity from mod (unknown)
+[02Sep2026 02:29:59.190] [main/WARN] [mixin/]: Error loading class: com/lilypuree/connectiblechains/chain/ChainLink (java.lang.ClassNotFoundException: com.lilypuree.connectiblechains.chain.ChainLink)
+[02Sep2026 02:29:59.191] [main/WARN] [mixin/]: @Mixin target com.lilypuree.connectiblechains.chain.ChainLink was not found valkyrienskies-forge.mixins.json:compat.connectiblechains.MixinChainLink from mod (unknown)
+[02Sep2026 02:29:59.196] [main/WARN] [mixin/]: Error loading class: net/mcreator/createstuffadditions/procedures/GrapplinWhiskChainsLineProcedure (java.lang.ClassNotFoundException: net.mcreator.createstuffadditions.procedures.GrapplinWhiskChainsLineProcedure)
+[02Sep2026 02:29:59.201] [main/WARN] [mixin/]: Error loading class: net/mcreator/createstuffadditions/procedures/GrapplinWhiskItemInHandTickProcedure (java.lang.ClassNotFoundException: net.mcreator.createstuffadditions.procedures.GrapplinWhiskItemInHandTickProcedure)
+[02Sep2026 02:29:59.204] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[02Sep2026 02:29:59.206] [main/WARN] [mixin/]: Error loading class: org/cyclops/integrateddynamics/core/block/VoxelShapeComponents (java.lang.ClassNotFoundException: org.cyclops.integrateddynamics.core.block.VoxelShapeComponents)
+[02Sep2026 02:29:59.207] [main/WARN] [mixin/]: @Mixin target org.cyclops.integrateddynamics.core.block.VoxelShapeComponents was not found valkyrienskies-forge.mixins.json:compat.integrateddynamics.MixinVoxelShapeComponents from mod (unknown)
+[02Sep2026 02:29:59.209] [main/WARN] [mixin/]: Error loading class: mekanism/common/lib/radiation/RadiationManager (java.lang.ClassNotFoundException: mekanism.common.lib.radiation.RadiationManager)
+[02Sep2026 02:29:59.210] [main/WARN] [mixin/]: @Mixin target mekanism.common.lib.radiation.RadiationManager was not found valkyrienskies-forge.mixins.json:compat.mekanism.MixinRadiationManager from mod (unknown)
+[02Sep2026 02:29:59.214] [main/WARN] [mixin/]: Error loading class: dev/su5ed/mffs/network/ClientPacketHandler (java.lang.ClassNotFoundException: dev.su5ed.mffs.network.ClientPacketHandler)
+[02Sep2026 02:29:59.216] [main/WARN] [mixin/]: Error loading class: dev/su5ed/mffs/util/FrequencyGrid (java.lang.ClassNotFoundException: dev.su5ed.mffs.util.FrequencyGrid)
+[02Sep2026 02:29:59.222] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[02Sep2026 02:29:59.227] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[02Sep2026 02:29:59.230] [main/WARN] [mixin/]: Error loading class: twilightforest/world/components/chunkgenerators/ChunkGeneratorTwilight (java.lang.ClassNotFoundException: twilightforest.world.components.chunkgenerators.ChunkGeneratorTwilight)
+[02Sep2026 02:29:59.230] [main/WARN] [mixin/]: @Mixin target twilightforest.world.components.chunkgenerators.ChunkGeneratorTwilight was not found valkyrienskies-forge.mixins.json:compat.twilightforest.ChunkGeneratorTwilightMixin from mod (unknown)
+[02Sep2026 02:29:59.357] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[02Sep2026 02:29:59.358] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[02Sep2026 02:30:00.114] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/SimpleAnimatedParticle (java.lang.ClassNotFoundException: net.minecraft.client.particle.SimpleAnimatedParticle)
+[02Sep2026 02:30:00.140] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack$Pose for invalid dist DEDICATED_SERVER
+[02Sep2026 02:30:00.141] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/vertex/PoseStack$Pose (java.lang.RuntimeException: Attempted to load class com/mojang/blaze3d/vertex/PoseStack$Pose for invalid dist DEDICATED_SERVER)
+[02Sep2026 02:30:00.320] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[02Sep2026 02:30:02.261] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (33.80 s after launch)
+[02Sep2026 02:30:02.626] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod (unknown) should be final
+[02Sep2026 02:30:02.626] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod (unknown) should be final
+[02Sep2026 02:30:02.985] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[02Sep2026 02:30:02.985] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[02Sep2026 02:30:07.558] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5292 milliseconds
+[02Sep2026 02:30:12.442] [modloading-worker-0/INFO] [tt20/]: Starting TT20...
+[02Sep2026 02:30:12.447] [Thread-2/INFO] [tt20/]: (TT20) Checking for updates...
+[02Sep2026 02:30:12.653] [modloading-worker-0/INFO] [PatPat/]: [PatPat]: PatPat Initialized
+[02Sep2026 02:30:12.660] [modloading-worker-0/INFO] [PatPat/Dedicated/]: [PatPat/Dedicated]: Successfully loaded PatPat language files!
+[02Sep2026 02:30:13.250] [modloading-worker-0/INFO] [STDOUT/]: [com.tiviacz.travelersbackpack.TravelersBackpack:readOldCommonConfig:180]: curiosIntegration not found in the [common.backpackSettings] section.
+[02Sep2026 02:30:13.463] [modloading-worker-0/INFO] [cn.crtlprototypestudios.prma.PreciseManufacturing/]: Registering Mod Items
+[02Sep2026 02:30:13.485] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[02Sep2026 02:30:13.485] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[02Sep2026 02:30:15.066] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.8 initializing! Commit hash: 1a1a9a2819b4f89f78caec41b55ed8cb222fa24b
+[02Sep2026 02:30:15.409] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[02Sep2026 02:30:19.241] [modloading-worker-0/INFO] [org.valkyrienskies.mod.platform.VSCoreProviderImpl/]: Initialized VSCore on Forge!
+[02Sep2026 02:30:20.602] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@75e6907c has been registered twice for the same name treechop:chop_wood.
+[02Sep2026 02:30:23.367] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[02Sep2026 02:30:23.594] [modloading-worker-0/INFO] [cn.crtlprototypestudios.prma.PreciseManufacturing/]: HELLO FROM PREINIT
+[02Sep2026 02:30:23.611] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[02Sep2026 02:30:23.613] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[02Sep2026 02:30:23.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 3.0.4+mc.1.20.1-forge Target: null
+[02Sep2026 02:30:23.727] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[02Sep2026 02:30:23.737] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[02Sep2026 02:30:23.757] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[02Sep2026 02:30:23.759] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[02Sep2026 02:30:23.759] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[02Sep2026 02:30:24.127] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[02Sep2026 02:30:24.127] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[02Sep2026 02:30:24.127] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[02Sep2026 02:30:24.128] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[02Sep2026 02:30:24.129] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[02Sep2026 02:30:24.129] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[02Sep2026 02:30:24.129] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[02Sep2026 02:30:24.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[02Sep2026 02:30:24.130] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[02Sep2026 02:30:24.157] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[02Sep2026 02:30:24.162] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[02Sep2026 02:30:24.169] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[02Sep2026 02:30:24.172] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[02Sep2026 02:30:24.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[02Sep2026 02:30:24.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[02Sep2026 02:30:24.263] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.46 Target: null
+[02Sep2026 02:30:24.268] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Sep2026 02:30:24.443] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[02Sep2026 02:30:24.447] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[02Sep2026 02:30:24.777] [modloading-worker-0/INFO] [cn.crtlprototypestudios.prma.PreciseManufacturing/]: Hello world from the MDK
+[02Sep2026 02:30:24.778] [modloading-worker-0/INFO] [cn.crtlprototypestudios.prma.PreciseManufacturing/]: Got IMC [Hello world]
+[02Sep2026 02:30:24.973] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.23 Target: null
+[02Sep2026 02:30:24.974] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[02Sep2026 02:30:25.074] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: UP_TO_DATE Current: 1.20.1-2.6.22 Target: null
+[02Sep2026 02:30:25.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[02Sep2026 02:30:25.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.10.1 Target: 1.10.2.1
+[02Sep2026 02:30:25.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[02Sep2026 02:30:25.422] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23165!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23165!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[02Sep2026 02:30:25.655] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Sep2026 02:30:25.948] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[02Sep2026 02:30:26.586] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MAJADITO_v2-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23164!/assets/.mcassetsroot' uses unexpected schema
+[02Sep2026 02:30:26.586] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MAJADITO_v2-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23164!/data/.mcassetsroot' uses unexpected schema
+[02Sep2026 02:30:26.804] [main/INFO] [com.simibubi.create.Create/]: Created 255 recipes which will be injected into the game
+[02Sep2026 02:30:26.823] [main/INFO] [com.simibubi.create.Create/]: Created 21 tags which will be injected into the game
+[02Sep2026 02:30:40.415] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in /workspaces/MAJADITO_v2-/servidor_minecraft/tacz
+[02Sep2026 02:30:40.419] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[02Sep2026 02:30:40.419] [main/INFO] [tacz/GunPackFinder]: Found 1 possible gunpack(s) and added them to resource set.
+[02Sep2026 02:30:43.205] [main/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:registerPermission:136]: Permission node already registered: command.ratelimit.toggle
+[02Sep2026 02:30:45.319] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 29 recipes
+[02Sep2026 02:30:45.550] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3471 advancements
+[02Sep2026 02:30:45.846] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[02Sep2026 02:30:45.853] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[02Sep2026 02:30:46.174] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/aluminum' doesn't exist!
+[02Sep2026 02:30:46.175] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/annealed_copper' doesn't exist!
+[02Sep2026 02:30:46.177] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/beryllium' doesn't exist!
+[02Sep2026 02:30:46.177] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/charcoal' doesn't exist!
+[02Sep2026 02:30:46.177] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/cobalt' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/constantan' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/electrum' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/gallium' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/iridium' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/lead' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/lithium' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/magnetic_iron' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/neodymium' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/neutronium' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/nickel' doesn't exist!
+[02Sep2026 02:30:46.178] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/opal' doesn't exist!
+[02Sep2026 02:30:46.179] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/osmium' doesn't exist!
+[02Sep2026 02:30:46.179] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/polyethylene' doesn't exist!
+[02Sep2026 02:30:46.179] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/silver' doesn't exist!
+[02Sep2026 02:30:46.179] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/tantalum' doesn't exist!
+[02Sep2026 02:30:46.179] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/tin' doesn't exist!
+[02Sep2026 02:30:46.181] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/titanium' doesn't exist!
+[02Sep2026 02:30:46.183] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/uranium' doesn't exist!
+[02Sep2026 02:30:46.183] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/vanadium' doesn't exist!
+[02Sep2026 02:30:46.183] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_aluminum' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_beryllium' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_cobalt' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_iridium' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_lead' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_lithium' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_magnetite' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_neodymium' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_nickel' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_opal' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_osmium' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_silver' doesn't exist!
+[02Sep2026 02:30:46.184] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_tantalite' doesn't exist!
+[02Sep2026 02:30:46.185] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_tin' doesn't exist!
+[02Sep2026 02:30:46.185] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_titanium' doesn't exist!
+[02Sep2026 02:30:46.185] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_uranium' doesn't exist!
+[02Sep2026 02:30:46.185] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'forge:storage_blocks/raw_vanadium' doesn't exist!
+[02Sep2026 02:30:46.187] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[02Sep2026 02:30:46.189] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'hexcasting:slate_blocks' doesn't exist!
+[02Sep2026 02:30:46.189] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'hexcasting:amethyst_blocks' doesn't exist!
+[02Sep2026 02:30:46.189] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'immersive_weathering:leaf_piles' doesn't exist!
+[02Sep2026 02:30:46.189] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'woodworks:leaf_piles' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'create_vibrant_vaults:item_vaults' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'create_vibrant_vaults:shipping_containers' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_stairs' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_slab' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:cobbled_travertine' doesn't exist!
+[02Sep2026 02:30:46.190] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:cobbled_travertine_stairs' doesn't exist!
+[02Sep2026 02:30:46.191] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:cobbled_travertine_slab' doesn't exist!
+[02Sep2026 02:30:46.191] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_cobbled_travertine' doesn't exist!
+[02Sep2026 02:30:46.191] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_cobbled_travertine_stairs' doesn't exist!
+[02Sep2026 02:30:46.191] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_cobbled_travertine_slab' doesn't exist!
+[02Sep2026 02:30:46.191] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:chiseled_travertine' doesn't exist!
+[02Sep2026 02:30:46.191] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:polished_travertine' doesn't exist!
+[02Sep2026 02:30:46.194] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:polished_travertine_stairs' doesn't exist!
+[02Sep2026 02:30:46.194] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:polished_travertine_slab' doesn't exist!
+[02Sep2026 02:30:46.194] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:polished_travertine_wall' doesn't exist!
+[02Sep2026 02:30:46.194] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_bricks' doesn't exist!
+[02Sep2026 02:30:46.194] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:cracked_travertine_bricks' doesn't exist!
+[02Sep2026 02:30:46.194] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_brick_stairs' doesn't exist!
+[02Sep2026 02:30:46.195] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_brick_slab' doesn't exist!
+[02Sep2026 02:30:46.195] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_brick_wall' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_travertine_bricks' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_travertine_brick_stairs' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_travertine_brick_slab' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:mossy_travertine_brick_wall' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_tiles' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:cracked_travertine_tiles' doesn't exist!
+[02Sep2026 02:30:46.196] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_tile_stairs' doesn't exist!
+[02Sep2026 02:30:46.200] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_tile_slab' doesn't exist!
+[02Sep2026 02:30:46.200] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:travertine_tile_wall' doesn't exist!
+[02Sep2026 02:30:46.200] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:kaolin' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:kaolin_stairs' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:kaolin_slabs' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:kaolin_bricks' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:kaolin_brick_stairs' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:kaolin_brick_slabs' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:chalk' doesn't exist!
+[02Sep2026 02:30:46.201] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:chalk_stairs' doesn't exist!
+[02Sep2026 02:30:46.203] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'natures_spirit:chalk_slabs' doesn't exist!
+[02Sep2026 02:30:46.203] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'simplest_compression:compressed_sand' doesn't exist!
+[02Sep2026 02:30:46.270] [main/WARN] [ModernFix/]: Initial datapack load took 19.40 s
+[02Sep2026 02:30:46.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Sep2026 02:30:46.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Sep2026 02:30:46.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Sep2026 02:30:46.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Sep2026 02:30:47.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Sep2026 02:30:47.315] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Sep2026 02:30:47.445] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Sep2026 02:30:47.446] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Sep2026 02:30:47.446] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Sep2026 02:30:47.447] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Sep2026 02:30:47.646] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Sep2026 02:30:47.834] [Server thread/WARN] [mixin/]: Method overwrite conflict for getLevel in valkyrienskies-forge.mixins.json:feature.shipyard_entities.MixinPersistentEntitySectionManager from mod (unknown), previously written by org.valkyrienskies.mod.mixin.feature.shipyard_entities.MixinPersistentEntitySectionManager. Skipping method.
+[02Sep2026 02:30:47.835] [Server thread/WARN] [mixin/]: Method overwrite conflict for setLevel in valkyrienskies-forge.mixins.json:feature.shipyard_entities.MixinPersistentEntitySectionManager from mod (unknown), previously written by org.valkyrienskies.mod.mixin.feature.shipyard_entities.MixinPersistentEntitySectionManager. Skipping method.
+[02Sep2026 02:30:53.187] [Server thread/INFO] [STDOUT/]: [org.valkyrienskies.core.impl.shadow.Ix:a:-1]: KrunchPhysicsAPISharedLibraryLoader loading library KrunchJni
+[02Sep2026 02:30:53.725] [Server thread/INFO] [org.valkyrienskies.core.impl.shadow.Fl/]: We are not using UDP, falling back to TCP
+[02Sep2026 02:30:54.115] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[02Sep2026 02:30:54.127] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[02Sep2026 02:30:54.206] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[02Sep2026 02:30:54.211] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[02Sep2026 02:30:54.213] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[02Sep2026 02:30:54.219] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[02Sep2026 02:30:54.223] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[02Sep2026 02:30:54.226] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[02Sep2026 02:30:54.228] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[02Sep2026 02:30:54.230] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[02Sep2026 02:30:54.232] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[02Sep2026 02:30:54.236] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[02Sep2026 02:30:54.238] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[02Sep2026 02:30:54.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Sep2026 02:30:54.364] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin from mod (unknown), previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[02Sep2026 02:30:57.522] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.527] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.527] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.528] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.528] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.528] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.529] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:57.856] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Sep2026 02:30:58.904] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4550 ms
+[02Sep2026 02:30:58.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.431s)! For help, type "help"
+[02Sep2026 02:30:59.165] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Sep2026 02:30:59.168] [Server thread/INFO] [cn.crtlprototypestudios.prma.PreciseManufacturing/]: HELLO from server starting
+[02Sep2026 02:30:59.172] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[02Sep2026 02:30:59.205] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is '147.185.221.231:46350'
+[02Sep2026 02:30:59.206] [Server thread/WARN] [ModernFix/]: Dedicated server took 90.743 seconds to load
+[02Sep2026 02:30:59.207] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 0.0.0.0:24454
+[02Sep2026 02:30:59.725] [Server thread/INFO] [STDOUT/]: [com.abdelaziz.canary.common.block.TrackedBlockStatePredicate:<clinit>:14]: Canary Cached BlockState Flags are disabled!
+[02Sep2026 02:31:34.574] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pepe23gftnico[/127.119.218.80:54927] logged in with entity id 91 at (-2551.333779062731, 119.0, 99.08687988822467)
+[02Sep2026 02:31:34.746] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player pepe23gftnico
+[02Sep2026 02:31:34.811] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.info = true
+[02Sep2026 02:31:34.811] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list = true
+[02Sep2026 02:31:34.811] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.info = true
+[02Sep2026 02:31:34.812] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.set = true
+[02Sep2026 02:31:34.813] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.add = true
+[02Sep2026 02:31:34.814] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.remove = true
+[02Sep2026 02:31:34.816] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit = true
+[02Sep2026 02:31:34.816] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.info = true
+[02Sep2026 02:31:34.817] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.set.interval = true
+[02Sep2026 02:31:34.817] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.set.increment = true
+[02Sep2026 02:31:34.818] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.set.limit = true
+[02Sep2026 02:31:34.819] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.toggle = true
+[02Sep2026 02:31:34.820] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.toggle = true
+[02Sep2026 02:31:34.820] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.reload = true
+[02Sep2026 02:31:34.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepe23gftnico joined the game
+[02Sep2026 02:31:48.470] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of pepe23gftnico (20)
+[02Sep2026 02:31:48.481] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to pepe23gftnico
+[02Sep2026 02:32:01.442] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 5e43998a-fc1f-3a96-b7b6-dece9298fd2a
+[02Sep2026 02:32:02.442] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 5e43998a-fc1f-3a96-b7b6-dece9298fd2a
+[02Sep2026 02:32:02.446] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a) successfully connected to voice chat
+[02Sep2026 02:59:33.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pepe23gftnico fell from a high place
+[02Sep2026 02:59:35.591] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.info = true
+[02Sep2026 02:59:35.591] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list = true
+[02Sep2026 02:59:35.592] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.info = true
+[02Sep2026 02:59:35.592] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.set = true
+[02Sep2026 02:59:35.592] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.add = true
+[02Sep2026 02:59:35.593] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.list.remove = true
+[02Sep2026 02:59:35.593] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit = true
+[02Sep2026 02:59:35.593] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.info = true
+[02Sep2026 02:59:35.594] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.set.interval = true
+[02Sep2026 02:59:35.594] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.set.increment = true
+[02Sep2026 02:59:35.595] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.set.limit = true
+[02Sep2026 02:59:35.595] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.toggle = true
+[02Sep2026 02:59:35.596] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.ratelimit.toggle = true
+[02Sep2026 02:59:35.597] [Server thread/INFO] [STDOUT/]: [net.lopymine.patpat.entrypoint.forge.loader.ForgeServerModLoader:hasPermission:160]: Checking permission for player pepe23gftnico (5e43998a-fc1f-3a96-b7b6-dece9298fd2a): patpat.command.reload = true
+[02Sep2026 03:02:52.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepe23gftnico: Set own game mode to Creative Mode]
+[02Sep2026 03:05:04.831] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [pepe23gftnico: Set own game mode to Survival Mode]
+[02Sep2026 03:26:31.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Sep2026 03:26:31.878] [Physics thread/INFO] [(VS Core) Burger Factory/]: Deleting VSPhysicsPipelineStage resources!
+[02Sep2026 03:26:31.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Sep2026 03:26:31.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Sep2026 03:26:32.127] [Physics thread/WARN] [org.valkyrienskies.core.impl.shadow.FM/]: Physics pipeline ending
+[02Sep2026 03:26:32.380] [DefaultDispatcher-worker-3/INFO] [(VS Core) Burger Factory/]: VSPhysicsPipelineStage is fully deleted!
+[02Sep2026 03:26:32.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Sep2026 03:26:33.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Sep2026 03:26:33.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Sep2026 03:26:33.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Sep2026 03:26:33.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Sep2026 03:26:33.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Sep2026 03:26:33.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
